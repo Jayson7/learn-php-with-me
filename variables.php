@@ -15,18 +15,42 @@ EcHo $variable, '\n';
 
 
 
+?>
+
+<?php
+  
+ $input  = <<<testHeredoc
+
+Welcome to GeeksforGeeks.
+Started content writing in GeeksforGeeks!.
+I am enjoying this.
+
+testHeredoc;
+  
+echo $input;
+
+/* 
 
 
+*/
+?>
 
+<?php
 
+$input = <<<'testNowdoc'
 
+Welcome to GeeksforGeeks.
+Started content writing in GeeksforGeeks!.
 
+testNowdoc;
 
+echo $input;
 
-
-
-
-
-
-
+// Directly printing string without any variable
+echo <<<'Nowdoc'
+Welcome to GFG .
+Learning PHP is fun in GFG.
+    
+Nowdoc;
+    
 ?>
