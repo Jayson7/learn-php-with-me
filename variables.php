@@ -3,13 +3,15 @@
 // statements are executed in the same manner
  
 $variable = 25;
-echo $variable;
-ECHO $variable;
-EcHo $variable;
+echo $variable, '\n';
+ECHO $variable, '\n';
+EcHo $variable, '\n';
 
 // but this line will show RUNTIME ERROR as
 // "Undefined Variable"
-echo $VARIABLE
+// echo $VARIABLE
+
+
 
 
 
