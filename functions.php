@@ -42,11 +42,13 @@ echo $y; // outputs 15
 echo "\n";
 echo 'mytest 3';
 function myTest3($firstNum, $secondNum) {
+echo "\n";
 
     echo $firstNum **2+ $secondNum **2;
+echo "\n";
 
     // check type of firstname 
-    echo "type($firstNum)";
+    echo gettype($firstNum);
 
 }
 
