@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // get details and trim
     $name = trim($_POST["name"]);
     $email = trim($_POST["email"]);
-// define eeror variables
+// define error variables
     $errors = [];
 
     // Validate name
@@ -35,9 +35,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<p>Name: $name</p>";
         echo "<p>Email: $email</p>";
     }
+    
 } else {
     // Redirect to form if accessed directly
-    header("Location: index.html");
+    header("Location: #");
     exit();
 }
 ?>
