@@ -1,9 +1,11 @@
 <!-- form.php -->
 <?php
+// check request method
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // get details and trim
     $name = trim($_POST["name"]);
     $email = trim($_POST["email"]);
-
+// define eeror variables
     $errors = [];
 
     // Validate name
