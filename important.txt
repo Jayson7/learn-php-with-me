@@ -1,0 +1,19 @@
+    app/: Contains the core code (models, controllers, middleware).
+
+    bootstrap/: Contains the app initialization file.
+
+    config/: Configuration files.
+
+    database/: Migrations, seeders, and factories.
+
+    public/: Entry point for requests (CSS, JS, images).
+
+    resources/: Views, raw assets (Blade templates, SASS).
+
+    routes/: All routes (web.php, api.php).
+
+    storage/: Logs, compiled Blade templates, file uploads.
+
+    tests/: PHPUnit tests.
+
+    vendor/: Composer dependencies.
